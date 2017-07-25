@@ -40,14 +40,14 @@ hbs.registerHelper("screamIt",(text)=>{
 
 app.get('/',(req, res)=>{
     res.render('home.hbs',{
-        pageTitle: "HOME PAGE",
-        bodyText:"BLAH BLAH BLAH",
+        pageTitle: "ERMERGERD HOME",
+        bodyText:"I'm writing things here.",
     });
 });
 
 app.get('/about', (req, res)=>{
     res.render('about.hbs',{
-        pageTitle: "About Page",
+        pageTitle: "ABOUT MEH",
     });
 });
 
